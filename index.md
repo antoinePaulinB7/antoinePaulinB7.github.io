@@ -6,7 +6,13 @@ Here, I put what I'm currently working on.
 
 ## My Current Project
 
-A metroidvania game where dying is not the end. My toolbelt for this game: libgdx, Tiled and Aseprite.
+A metroidvania game where dying is not the end. 
+
+### My toolbelt for this game
+
+* libgdx
+* Tiled
+* Aseprite
 
 ### Contact info
 

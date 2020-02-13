@@ -1,6 +1,6 @@
 ## Welcome to my page!
 
-My name is Antoine. I'm a Concordia CS student.
+My name is [Antoine](https://github.com/antoinePaulinB7). I'm a Concordia CS student.
 
 Here, I put what I'm currently working on.
 

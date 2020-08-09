@@ -1,0 +1,35 @@
+//Font sizes
+
+// Desktop
+$text-font-size: 1em;
+$nav-font-size: $text-font-size * 2;
+$h1-font-size: $text-font-size * 2;
+$h2-font-size: $text-font-size * 1.75;
+$h3-font-size: $text-font-size * 1.5;
+$h4-font-size: $text-font-size * 1.25;
+$h5-font-size: $text-font-size * 1.15;
+$h6-font-size: $text-font-size * 1.1;
+$footer-font-size: $text-font-size * 0.85;
+
+
+// Tablet
+$text-font-size-tablet: $text-font-size * 1;
+$nav-font-size-tablet: $nav-font-size * 1;
+$h1-font-size-tablet: $h1-font-size * 1;
+$h2-font-size-tablet: $h2-font-size * 1;
+$h3-font-size-tablet: $h3-font-size * 1;
+$h4-font-size-tablet: $h4-font-size * 1;
+$h5-font-size-tablet: $h5-font-size * 1;
+$h6-font-size-tablet: $h6-font-size * 1;
+$footer-font-size-tablet: $footer-font-size * 1;
+
+// Mobile
+$text-font-size-mobile: $text-font-size * 1.25;
+$nav-font-size-mobile: $nav-font-size * 1;
+$h1-font-size-mobile: $h1-font-size * 1;
+$h2-font-size-mobile: $h2-font-size * 1;
+$h3-font-size-mobile: $h3-font-size * 1;
+$h4-font-size-mobile: $h4-font-size * 1;
+$h5-font-size-mobile: $h5-font-size * 1;
+$h6-font-size-mobile: $h6-font-size * 1;
+$footer-font-size-mobile: $footer-font-size * 1;

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{site.language}}">
+  {% include head.html %}
+  {% include head-elm.html %}
+  <body>
+    <div id="main">
+      {% include nav.html %}
+      <div id="content-left">
+      </div>
+      <script>
+        var app = Elm.Main.init({
+          node: document.getElementById('content-left')
+        });
+      </script>
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

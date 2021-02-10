@@ -1,4 +1,6 @@
-body { margin-top: 0px; padding: 0; font-family: 'EB Garamond', serif; font-size: 1em; line-height: 150%; background: #fdf5e8; }
+* { box-sizing: border-box; }
+
+body { margin: 0; padding: 0; font-family: 'EB Garamond', serif; font-size: 1em; line-height: 150%; background: #fdf5e8; }
 
 a:link, a:visited { text-decoration: none; color: #000; }
 
@@ -6,9 +8,9 @@ a:hover { text-decoration: underline; }
 
 #main { max-width: 1200px; margin: 0 auto; }
 
-#nav { margin: auto; margin-top: 0px; padding-top: 0px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #000; position: sticky; top: 0; text-align: center; font-size: 2em; }
+#nav { margin: 0 auto 15px; padding: 15px 0; border-bottom: 1px solid #000; position: sticky; top: 0; text-align: center; font-size: 2em; }
 
-#content-left { text-align: left; margin: auto; padding-top: 5px; margin-bottom: 20px; padding-bottom: 20px; }
+#content-left { text-align: left; margin: auto; padding: 5px; margin-bottom: 20px; padding-bottom: 20px; }
 
 #content { text-align: center; margin: auto; margin-top: 20px; padding-top: 20px; margin-bottom: 20px; padding-bottom: 20px; }
 
@@ -49,7 +51,6 @@ h5 { font-size: 1.15em; }
 h6 { font-size: 1.1em; }
 
 @media screen and (max-width: 850px) { body { font-size: 1em; }
-  #main { width: auto; margin: 0 auto; padding: 10px; }
   #logo, #nav, #content-left, #footer { display: block; width: 100%; }
   #logo img { max-width: 80%; }
   #nav { font-size: 2em; padding-bottom: 0.5em; }

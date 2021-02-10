@@ -1,122 +1,120 @@
-body	{
-	margin-top: 0px;
-	padding:0;
-	font-family: 'EB Garamond', serif;
-	font-size: $text-font-size;
+body  {
+  margin-top: 0px;
+  padding:0;
+  font-family: 'EB Garamond', serif;
+  font-size: $text-font-size;
   line-height:150%;
   
   background: $background-white;
 }
 
-a:link, a:visited	{
-	text-decoration: none;
+a:link, a:visited  {
+  text-decoration: none;
   color:#000;
 }
 
-a:hover	{
-	text-decoration: underline;
+a:hover  {
+  text-decoration: underline;
 }
 
 
 #main {
-	width: 50%;
-	margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #nav {
-	margin:auto;
-	margin-top:0px;
-	padding-top:0px;
-	margin-bottom:5px;
+  margin:auto;
+  margin-top:0px;
+  padding-top:0px;
+  margin-bottom:5px;
   padding-bottom:5px;
   
   border-bottom: 1px solid #000;
-  
-  background-color: white;
 
   position: sticky;
   top: 0;
 
-	text-align:center;
+  text-align:center;
   font-size: $nav-font-size;
 }
 
 #content-left {
-	text-align:left;
-	margin:auto;
-	padding-top:5px;
-	margin-bottom:20px;
-	padding-bottom:20px;
+  text-align:left;
+  margin:auto;
+  padding-top:5px;
+  margin-bottom:20px;
+  padding-bottom:20px;
 }
 
 #content {
-	text-align:center;
-	margin:auto;
-	margin-top:20px;
-	padding-top:20px;
-	margin-bottom:20px;
-	padding-bottom:20px;
+  text-align:center;
+  margin:auto;
+  margin-top:20px;
+  padding-top:20px;
+  margin-bottom:20px;
+  padding-bottom:20px;
 }
 
 #footer {
-	text-align:center;
-	margin:auto;
-	font-size:$footer-font-size;
-	margin-bottom:10px;
-	padding-bottom:10px;
-	border-top: 1px solid #000;
+  text-align:center;
+  margin:auto;
+  font-size:$footer-font-size;
+  margin-bottom:10px;
+  padding-bottom:10px;
+  border-top: 1px solid #000;
 }
 
-#logo	{
-	text-align:center;
-	margin: 20px auto 20px auto;
+#logo  {
+  text-align:center;
+  margin: 20px auto 20px auto;
 }
 
 #logo img {
-	max-width: 50%;
+  max-width: 50%;
 }
 
-#content-left a:link, #content-left a:visited	{
-	text-decoration: underline;
-	color:#000
+#content-left a:link, #content-left a:visited  {
+  text-decoration: underline;
+  color:#000
 }
 
-#content-left a:hover	{
-	text-decoration: none;
+#content-left a:hover  {
+  text-decoration: none;
 }
 
-#post-short a:link, #post-short a:visited	{
-	text-decoration: none;
-	color:#000
+#post-short a:link, #post-short a:visited  {
+  text-decoration: none;
+  color:#000
 }
 
-#post-short a:hover	{
-	text-decoration: underline;
+#post-short a:hover  {
+  text-decoration: underline;
 }
 
-#post-short h3, #post h2	{
-	margin-bottom: 0px;
+#post-short h3, #post h2  {
+  margin-bottom: 0px;
 }
 
-#post-short i	{
-	font-size:0.8em;
-	color: grey;
+#post-short i  {
+  font-size:0.8em;
+  color: grey;
 }
 
-#post i	{
-	font-size:0.9em;
-	color: grey;
+#post i  {
+  font-size:0.9em;
+  color: grey;
 }
 
 #categories a, #categories a:link, #categories a:visited {
-	background-color: grey;
-	text-decoration: none;
-	padding: 0.1em 0.5em 0.1em 0.5em;
-	border-radius: 25px;
+  background-color: grey;
+  text-decoration: none;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  border-radius: 25px;
 }
 
 #categories a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 h1 {
@@ -148,33 +146,33 @@ h6 {
     font-size: $text-font-size-tablet;
   }
 
-	#main {
-		width: auto;
-		margin: 0 auto;
-		padding: 10px;
-	}
+  #main {
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+  }
 
-	#logo, #nav, #content-left,	#footer {
-		display: block;
-		width: 100%;
-	}
+  #logo, #nav, #content-left,  #footer {
+    display: block;
+    width: 100%;
+  }
 
-	#logo img {
-		max-width: 80%;
-	}
+  #logo img {
+    max-width: 80%;
+  }
 
-	#nav {
-		font-size: $nav-font-size-tablet;
-		padding-bottom: 0.5em;
-	}
+  #nav {
+    font-size: $nav-font-size-tablet;
+    padding-bottom: 0.5em;
+  }
 
-	h2 {
-		font-size: $h2-font-size-tablet;
-	}
+  h2 {
+    font-size: $h2-font-size-tablet;
+  }
 
-	h3 {
-		font-size: $h3-font-size-tablet;
-	}
+  h3 {
+    font-size: $h3-font-size-tablet;
+  }
 
 }
 
@@ -183,32 +181,32 @@ h6 {
     font-size: $text-font-size-mobile;
   }
 
-	#main {
-		width: auto;
-		margin: 0 auto;
-		padding: 10px;
-	}
+  #main {
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+  }
 
-	#logo, #nav, #content-left,	#footer {
-		display: block;
-		width: 100%;
-	}
+  #logo, #nav, #content-left,  #footer {
+    display: block;
+    width: 100%;
+  }
 
-	#logo img {
-		max-width: 80%;
-	}
+  #logo img {
+    max-width: 80%;
+  }
 
-	#nav {
-		font-size: $nav-font-size-mobile;
-		padding-bottom: 0.5em;
-	}
+  #nav {
+    font-size: $nav-font-size-mobile;
+    padding-bottom: 0.5em;
+  }
 
-	h2 {
-		font-size: $h2-font-size-mobile;
-	}
+  h2 {
+    font-size: $h2-font-size-mobile;
+  }
 
-	h3 {
-		font-size: $h3-font-size-mobile;
-	}
+  h3 {
+    font-size: $h3-font-size-mobile;
+  }
 
 }
